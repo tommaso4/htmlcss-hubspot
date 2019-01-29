@@ -1,0 +1,350 @@
+body{
+  background-color: #f2f2f2;
+}
+
+.navbar1 {
+  background-color: #2a3a53;
+  color: white;
+  line-height: 46px;
+}
+
+.clearfix:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 65%;
+}
+
+.right {
+  float: right;
+}
+
+.left span{
+  padding: 0 20px;
+}
+
+.navbar1-img{
+  float: left;
+  height: 46px;
+  width: 130px;
+  position: relative;
+}
+
+.navbar1-img > img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.bordo{
+  border-right: 2px solid #cecece;
+}
+
+.right i{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* fine navbar1 */
+.conteiner {
+  width: 1080px;
+  margin: auto;
+}
+
+.lh75 {
+  line-height: 75px
+}
+
+.btn1 {
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  padding: 10px 30px;
+  margin-right: 25px;
+}
+
+.btn2 {
+  background-color: orange;
+  color: white;
+  padding: 10px 30px;
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+
+.nav2 {
+  border-bottom: 1px solid #cecece;
+}
+/* fine nav2 */
+.positionrel{
+  width: 130px;
+  height: 75px;
+  position: relative;
+}
+
+.positionrel > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.right > span {
+  padding-right: 5px;
+}
+/* fine nav3 */
+.getfree {
+  background-color: #0168ff;
+}
+
+.w130 {
+  width: 260px;
+}
+
+.w130 h1{
+  font-size: 45px;
+  padding: 40px 0;
+}
+
+.w130 h3{
+  padding-bottom: 40px;
+}
+
+.w130 p{
+  padding: 40px 0;
+}
+.btn3{
+  padding: 15px 30px;
+
+}
+/* fineget free */
+section .conteiner{
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.center{
+  text-align: center;
+}
+
+.p800 img{
+  width: 250px;
+}
+
+.p800 {
+  width: 800px;
+  margin: auto;
+}
+
+.p800 h1 {
+  padding: 30px 0;
+}
+
+.p800 h4{
+  color: #ababab;
+}
+/* fine section 1 */
+#img{
+  width: 200px;
+}
+
+.white {
+  background-color: white;
+  padding: 30px 0;
+}
+
+.wi35 {
+  float: left;
+  width: 35%;
+  height: 310px;
+}
+
+.wi65{
+  float: left;
+  width: 65%;
+  height: 310px;
+  padding: 20px 40px;
+}
+
+.wi65 p{
+  padding: 30px 0;
+}
+
+.wi65 h2{
+  padding-top: 25px;
+}
+
+.wi65 span{
+  padding: 0 15px;
+}
+
+.wi65 i{
+background-color: white;
+color: orange;
+}
+/* fine sectione 35 65 */
+.wi33{
+  float: left;
+  width: 31.333%;
+}
+
+.img33 img {
+  height: 150px;
+}
+
+.mr-3{
+  margin-right: 3%;
+}
+
+.box1{
+  padding: 15px 20px;
+}
+
+.box1 h2 {
+  padding: 15px 0;
+}
+
+.box1 p {
+  padding: 15px 0;
+}
+
+.box1 i {
+  margin: 10px 5px;
+  background-color: white;
+  color: orange;
+}
+
+.box1 button {
+  margin: 0 65px;
+  margin-top: 20px;
+}
+/* fine secondo conteiner */
+.green{
+  margin-top: 25px;
+  padding: 80px 0;
+  background-color: #04a1a3;
+  color: white;
+}
+
+.fl-25 {
+  float: left;
+  width: 25%;
+}
+
+.griglia {
+  margin-top: 100px;
+}
+
+.square h1 {
+  font-size: 50px;
+  padding: 7px 0;
+}
+
+.square {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  padding: 30px 0;
+}
+
+.border-none {
+  border-left: none;
+}
+
+.bottom {
+  border-bottom: none;
+}
+/* fine conteiner green */
+.sloop{
+  padding: 150px 50px;
+}
+
+.text{
+  float: left;
+  width: 30%;
+  padding-right: 50px;
+
+}
+
+.text h1{
+  padding-bottom: 25px;
+  font-size: 40px;
+}
+
+.text p {
+  font-size: 20px;
+  color: #cecece;
+}
+.sloop-img {
+  float: left;
+  width: 70%;
+  padding-left: 80px;
+}
+
+.row-img {
+  float: left;
+  padding: 10px 30px;
+}
+/* fine conteiner sloop */
+footer{
+  background-color: #343c62;
+  color: white;
+  padding: 80px 0;
+}
+
+footer *{
+  padding: 13px 0;
+}
+
+.fl-25 button{
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.social {
+  font-size: 25px;
+  padding: 0 15px;
+}
+
+.p800 span {
+  font-size: 20px;
+  padding: 15px 40px;
+}
+
+footer .bord{
+  border-bottom: 1px solid white;
+}
+
+.flo-left {
+  float: left;
+}
+
+.flo-right {
+  float: right;
+  font-size: 25px;
+}
+
+.flo-right span {
+padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
